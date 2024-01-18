@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def SiteToCharList(site="https://greatist.com/fitness/50-bodyweight-exercises-you-can-do-anywhere#bodyweight-moves-for-beginners"):
     page = requests.get(site)
 
-    # pārraksta mājaslapas html tekstu
+    # pārraksta mājaslapau uz html tekstu
     page = page.text
 
     # pārveido html tekstu skaidri saprotamā tekstā
